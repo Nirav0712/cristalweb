@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 
 const Process1 = () => {
-    return (
+  return (
     <section className="cs_process_area cs_style_1">
       <div className="cs_height_120 cs_height_lg_80"></div>
       <div className="container">
@@ -21,46 +21,46 @@ const Process1 = () => {
           <div className="cs_steps_boxes_wrapper position-relative">
             <div className="cs_stepbox_wrapper position-relative wow fadeInUp">
               <span className="cs_stepbox_index cs_center cs_radius_50 position-absolute">
-              <span className="cs_step_index_in cs_radius_50">
-              <span className="cs_fs-18 cs_bold cs_heading_color">01</span>
-              <span className="cs_fs_14 cs_medium">Step</span>
+                <span className="cs_step_index_in cs_radius_50">
+                  <span className="cs_fs-18 cs_bold cs_heading_color">01</span>
+                  <span className="cs_fs_14 cs_medium">Step</span>
+                </span>
+                <Image src="/assets/img/step_index_1.svg" alt="img" width={72} height={25} />
               </span>
-              <Image src="/assets/img/step_index_1.svg" alt="img" width={72} height={25}   />
-              </span>
-              <div className="cs_stepbox_inner cs_center cs_fs_22 cs_medium cs_heading_color cs_radius_10 text-center">Discovery& Research</div>
+              <div className="cs_stepbox_inner cs_center cs_fs_22 cs_medium cs_heading_color_2 cs_radius_10 text-center">Discovery& Research</div>
             </div>
             <div className="cs_stepbox_wrapper cs_box_2 position-relative">
               <span className="cs_stepbox_index cs_center cs_radius_50 position-absolute">
-              <span className="cs_step_index_in cs_radius_50">
-              <span className="cs_fs-18 cs_bold cs_heading_color">02</span>
-              <span className="cs_fs_14 cs_medium">Step</span>
+                <span className="cs_step_index_in cs_radius_50">
+                  <span className="cs_fs-18 cs_bold cs_heading_color">02</span>
+                  <span className="cs_fs_14 cs_medium">Step</span>
+                </span>
+                <Image src="/assets/img/step_index_2.svg" alt="img" width={72} height={25} />
               </span>
-              <Image src="/assets/img/step_index_2.svg" alt="img" width={72} height={25}   />
-              </span>
-              <div className="cs_stepbox_inner cs_center cs_fs_22 cs_medium cs_heading_color cs_radius_10 text-center">Strategy Development</div>
+              <div className="cs_stepbox_inner cs_center cs_fs_22 cs_medium cs_heading_color_2 cs_radius_10 text-center">Strategy Development</div>
             </div>
             <div className="cs_stepbox_wrapper cs_box_3 position-relative">
               <span className="cs_stepbox_index cs_center cs_radius_50 position-absolute">
-              <span className="cs_step_index_in cs_radius_50">
-              <span className="cs_fs-18 cs_bold cs_heading_color">03</span>
-              <span className="cs_fs_14 cs_medium">Step</span>
+                <span className="cs_step_index_in cs_radius_50">
+                  <span className="cs_fs-18 cs_bold cs_heading_color">03</span>
+                  <span className="cs_fs_14 cs_medium">Step</span>
+                </span>
+                <Image src="/assets/img/step_index_3.svg" alt="img" width={72} height={25} />
               </span>
-              <Image src="/assets/img/step_index_3.svg" alt="img" width={72} height={25}   />
-              </span>
-              <div className="cs_stepbox_inner cs_center cs_fs_22 cs_medium cs_heading_color cs_radius_10 text-center">Design & Development</div>
+              <div className="cs_stepbox_inner cs_center cs_fs_22 cs_medium cs_heading_color_2 cs_radius_10 text-center">Design & Development</div>
             </div>
             <div className="cs_stepbox_wrapper cs_box_4 position-relative wow fadeInUp">
               <span className="cs_stepbox_index cs_center cs_radius_50 position-absolute">
-              <span className="cs_step_index_in cs_radius_50">
-              <span className="cs_fs-18 cs_bold cs_heading_color">04</span>
-              <span className="cs_fs_14 cs_medium">Step</span>
+                <span className="cs_step_index_in cs_radius_50">
+                  <span className="cs_fs-18 cs_bold cs_heading_color">04</span>
+                  <span className="cs_fs_14 cs_medium">Step</span>
+                </span>
+                <Image src="/assets/img/step_index_4.svg" alt="img" width={72} height={25} />
               </span>
-              <Image src="/assets/img/step_index_4.svg" alt="img" width={72} height={25}   />
-              </span>
-              <div className="cs_stepbox_inner cs_center cs_fs_22 cs_medium cs_heading_color cs_radius_10 text-center">Launch & QA</div>
+              <div className="cs_stepbox_inner cs_center cs_fs_22 cs_medium cs_heading_color_2 cs_radius_10 text-center">Launch & QA</div>
             </div>
             <div className="cs_process_shape_1 position-absolute">
-              <Image src="/assets/img/process_shape_1.svg" alt="img" width={959} height={208}   />
+              <Image src="/assets/img/process_shape_1.svg" alt="img" width={959} height={208} />
             </div>
             <div className="cs_process_shape_2 position-absolute"></div>
             <div className="cs_process_shape_3 position-absolute"></div>
@@ -71,8 +71,8 @@ const Process1 = () => {
           </div>
         </div>
       </div>
-    </section>
-    );
+    </section >
+  );
 };
 
 export default Process1;

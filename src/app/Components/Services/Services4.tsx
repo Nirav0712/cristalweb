@@ -6,14 +6,14 @@ import React from 'react';
 const Services4 = () => {
 
   const chooseContent = [
-    { img: '/assets/img/icons/bulb.svg', title: 'Branding design', slug: 'branding-design', content: 'Personalized service plans tailored to your po specific needs and your.' },
-    { img: '/assets/img/icons/email.svg', title: 'Email Marketing', slug: 'email-marketing', content: 'Personalized service plans tailored to your po specific needs and your.' },
-    { img: '/assets/img/icons/seo.svg', title: 'SEO & Analytics', slug: 'seo-analytics', content: 'Personalized service plans tailored to your po specific needs and your.' },
-    { img: '/assets/img/icons/watch.svg', title: 'Content Marketing', slug: 'content-marketing', content: 'Personalized service plans tailored to your po specific needs and your.' },
-    { img: '/assets/img/icons/ux-ui.svg', title: 'UI/UX Design', slug: 'ui-ux-design', content: 'Personalized service plans tailored to your po specific needs and your.' },
-    { img: '/assets/img/icons/app.svg', title: 'App development', slug: 'app-development', content: 'Personalized service plans tailored to your po specific needs and your.' },
-    { img: '/assets/img/icons/business.svg', title: 'Business Analysis', slug: 'business-analysis', content: 'Personalized service plans tailored to your po specific needs and your.' },
-    { img: '/assets/img/icons/digital.svg', title: 'Digital Strategy', slug: 'digital-strategy', content: 'Personalized service plans tailored to your po specific needs and your.' },
+    { img: '/assets/img/icons/bulb.svg', title: 'Branding design', slug: 'branding-design', content: 'Building a memorable identity that connects emotionally with your audience and sets the foundation for success.' },
+    { img: '/assets/img/icons/email.svg', title: 'Email Marketing', slug: 'email-marketing', content: 'One of the most effective strategies to boost sales and build strong customer relationships through direct communication.' },
+    { img: '/assets/img/icons/seo.svg', title: 'SEO & Analytics', slug: 'seo-analytics', content: 'Improving your website rank on Google and collecting data to measure performance and smarter marketing decisions.' },
+    { img: '/assets/img/icons/watch.svg', title: 'Content Marketing', slug: 'content-marketing', content: 'Creating and sharing valuable and relevant content to attract and engage your target audience and grow your business.' },
+    { img: '/assets/img/icons/ux-ui.svg', title: 'UI/UX Design', slug: 'ui-ux-design', content: 'Focusing on visual design and user journey to drive business growth and provide an intuitive user experience.' },
+    { img: '/assets/img/icons/app.svg', title: 'App development', slug: 'app-development', content: 'Designing, building, and deploying mobile applications for Android and iOS to provide personalized digital experiences.' },
+    { img: '/assets/img/icons/business.svg', title: 'Business Analysis', slug: 'business-analysis', content: 'Identifying business needs, solving problems, and recommending improvements through data-backed decisions.' },
+    { img: '/assets/img/icons/digital.svg', title: 'Digital Strategy', slug: 'digital-strategy', content: 'A long-term plan that uses digital technologies and data to help a business achieve its goals and stay relevant.' },
   ];
 
   return (

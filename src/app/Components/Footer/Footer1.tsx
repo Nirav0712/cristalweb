@@ -3,17 +3,17 @@ import Link from 'next/link';
 import React from 'react';
 
 const Footer1 = () => {
-    return (
-<footer className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg position-relative" data-src="assets/img/footer_bg_1.jpg">
+  return (
+    <footer className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg position-relative" data-src="assets/img/footer_bg_1.jpg">
       <div className="cs_footer_top position-relative z-1">
         <div className="container-fluid">
           <div className="cs_footer_content">
             <div className="cs_footer_top_content">
               <div className="wow fadeInLeft">Lets talk!</div>
               <Link href="/contact" className="cs_footer_top_img cs_radius_50 wow zoomIn">
-              <Image src="/assets/img/footer_img_icon.png" alt="img" width={128} height={128}   />
+                <Image src="/assets/logo_lion.png" alt="img" width={128} height={128} />
                 <span className="cs_center">
-                  <Image src="/assets/img/icons/arrow_right_2.svg" alt="img" width={54} height={56}   />
+                  <Image src="/assets/img/icons/arrow_right_2.svg" className="opacity-50" alt="img" width={54} height={56} />
                 </span>
               </Link>
             </div>
@@ -25,21 +25,21 @@ const Footer1 = () => {
           <div className="cs_footer_content cs_footer_row">
             <div className="cs_footer_widget cs_footer_text">
               <div className="cs_text_widget">
-                <Image src="/assets/img/newimgs/logo-removebg.png" className="cs_mb_30 wow zoomIn" alt="img" width={212} height={38}   />
+                <Image src="/assets/img/newimgs/logo-removebg.png" className="cs_mb_30 wow zoomIn" alt="img" width={212} height={38} />
                 <p className="cs_mb_37">Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur lacinia mollis</p>
               </div>
               <div className="cs_social_btns cs_style_1">
                 <a href="#" aria-label="Social link" className="cs_center cs_radius_50">
-                <i className="bi bi-facebook"></i>
+                  <i className="bi bi-facebook"></i>
                 </a>
                 <a href="#" aria-label="Social link" className="cs_center cs_radius_50">
-                <i className="bi bi-twitter-x"></i>
+                  <i className="bi bi-twitter-x"></i>
                 </a>
                 <a href="#" aria-label="Social link" className="cs_center cs_radius_50">
-                <i className="bi bi-linkedin"></i>
+                  <i className="bi bi-linkedin"></i>
                 </a>
                 <a href="#" aria-label="Social link" className="cs_center cs_radius_50">
-                <i className="bi bi-instagram"></i>
+                  <i className="bi bi-instagram"></i>
                 </a>
               </div>
             </div>
@@ -73,7 +73,7 @@ const Footer1 = () => {
                   <form action="#" className="cs_footer_newsletter_form cs_radius_8">
                     <input type="text" placeholder="Enter Email Address" />
                     <button aria-label="Subscribe button" className="cs_btn cs_style_1 cs_center">
-                    <span><i className="bi bi-send"></i></span>
+                      <span><i className="bi bi-send"></i></span>
                     </button>
                   </form>
                 </div>
@@ -96,13 +96,13 @@ const Footer1 = () => {
         </div>
       </div>
       <div className="cs_footer_shape_1 position-absolute">
-        <Image src="/assets/img/footer_shape_1.svg" alt="img" width={148} height={556}   />
+        <Image src="/assets/img/footer_shape_1.svg" alt="img" width={148} height={556} />
       </div>
       <div className="cs_footer_shape_2 position-absolute">
-        <Image src="/assets/img/footer_shape_1.svg" alt="img" width={148} height={556}   />
+        <Image src="/assets/img/footer_shape_1.svg" alt="img" width={148} height={556} />
       </div>
     </footer>
-    );
+  );
 };
 
 export default Footer1;

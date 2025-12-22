@@ -2,7 +2,7 @@ import React from 'react';
 import HeroBanner1 from '../Components/HeroBanner/HeroBanner1';
 import About1 from '../Components/About/About1';
 import Counter1 from '../Components/Counter/Counter1';
-import Services1 from '../Components/Services/Services1';
+import Services1 from '../Components/Services/Services4';
 import Project1 from '../Components/Project/Project1';
 import Marquee from '../Components/Marquee/Marquee';
 import HowWeDo from '../Components/HowWeDo/HowWeDo';
@@ -13,6 +13,7 @@ import Testimonial1 from '../Components/Testimonial/Testimonial1';
 import Team1 from '../Components/Team/Team1';
 import Contact1 from '../Components/Contact/Contact1';
 import Blog1 from '../Components/Blog/Blog4';
+import Teamhead from '../Components/Team/Teamhead';
 
 const page = () => {
     return (
@@ -28,6 +29,7 @@ const page = () => {
             <Video1></Video1>
             <Brand1></Brand1>
             <Testimonial1></Testimonial1>
+            <Teamhead></Teamhead>
             <Team1></Team1>
             <Contact1></Contact1>
             <Blog1></Blog1>

@@ -10,7 +10,7 @@ export interface TeamMember {
 export const teamContent: TeamMember[] = [
     {
         slug: 'hemant',
-        img: '/assets/img/teamimg/hemant.png',
+        img: '/assets/img/teamimg/henu.jpeg',
         name: 'Hemant',
         content: 'Senior Graphic Designer',
         linkedin: 'https://www.linkedin.com/in/hemant-bhadarka-8471b8285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
@@ -18,7 +18,7 @@ export const teamContent: TeamMember[] = [
     },
     {
         slug: 'jainil',
-        img: '/assets/img/teamimg/jainil.png',
+        img: '/assets/img/teamimg/jenil.png',
         name: 'Jainil',
         content: 'Branding Manager',
         linkedin: 'https://www.linkedin.com/in/jainil-shiyal-54ba4a284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
@@ -90,7 +90,7 @@ export const teamContent: TeamMember[] = [
     },
     {
         slug: 'khushboo',
-        img: '/assets/img/teamimg/khushboo.png',
+        img: '/assets/img/teamimg/khooshbu.jpg',
         name: 'Khushboo',
         content: 'Jr. Frontend Developer',
         linkedin: 'https://www.linkedin.com/in/khushboo-sadhu-a7a680393/',
