@@ -83,6 +83,7 @@ const HowWeDo = () => {
         </div>
         <div className="cs_wave_2 position-absolute">
           <Image src="/assets/img/waves.svg" alt="img" width={197} height={44} />
+          {/* <Image src="/assets/lion22.png" alt="img" width={170} height={120} /> */}
         </div>
         <div className="cs_rings position-absolute">
           <Image src="/assets/img/rings.svg" alt="img" width={191} height={161} />

@@ -27,11 +27,15 @@ const HeroBanner1 = () => {
     <section className="cs_hero cs_style_1 cs_bg_filled position-relative" data-background="/assets/img/hero_bg_1.jpg">
       <div className="container">
 
-        <div className="cs_hero_leftbar">
-          {/* <div className="mt-5"> */}
-          <Image src="/assets/logo_lion.png" className="object-contain" alt="img" width={256} height={256} />
-          {/* </div> */}
-        </div>
+        {/* <div className="cs_hero_leftbar hidden lg:block absolute top-0 left-0 lg:mt-[200px] lg:ml-[100px] xl:mt-[250px] xl:ml-[150px]">
+          <Image
+            src="/assets/logo_lion.png"
+            className="object-contain w-64 h-64 xl:w-80 xl:h-80"
+            alt="img"
+            width={320}
+            height={320}
+          />
+        </div> */}
 
         <div className="cs_hero_content">
           <div className="cs_hero_thumbnail wow fadeInLeft">
