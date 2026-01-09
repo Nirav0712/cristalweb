@@ -1,9 +1,9 @@
 // SEO Constants for The Crystal Engage
 export const SITE_CONFIG = {
     name: "The Crystal Engage",
-    domain: "https://thecrystalengage.com",
+    domain: "https://thecrystalengage.in",
     description: "The Crystal Engage is a results-driven digital marketing agency in Ahmedabad providing SEO, branding, content marketing, UI/UX design, app development, and digital strategy solutions for business growth.",
-    email: "info@thecrystalengage.com",
+    email: "info@thecrystalengage.in",
     phone: "+91 9586107802",
 
     address: {
@@ -20,9 +20,9 @@ export const SITE_CONFIG = {
     },
 
     social: {
-        facebook: "https://www.facebook.com/p/The-Crystal-Engage",
-        instagram: "https://www.instagram.com/thecrystalengage_",
-        linkedin: "https://www.linkedin.com/company/the-crystal-engage"
+        facebook: "https://www.facebook.in/p/The-Crystal-Engage",
+        instagram: "https://www.instagram.in/thecrystalengage_",
+        linkedin: "https://www.linkedin.in/company/the-crystal-engage"
     },
 
     logo: "/favicon.ico",
