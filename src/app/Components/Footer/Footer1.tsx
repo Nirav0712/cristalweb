@@ -29,16 +29,16 @@ const Footer1 = () => {
                 <p className="cs_mb_37">Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur lacinia mollis</p>
               </div>
               <div className="cs_social_btns cs_style_1">
-                <a href="#" aria-label="Social link" className="cs_center cs_radius_50">
+                <a href="https://www.facebook.com/p/The-Crystal-Engage" aria-label="Social link" className="cs_center cs_radius_50">
                   <i className="bi bi-facebook"></i>
                 </a>
                 <a href="#" aria-label="Social link" className="cs_center cs_radius_50">
                   <i className="bi bi-twitter-x"></i>
                 </a>
-                <a href="#" aria-label="Social link" className="cs_center cs_radius_50">
+                <a href="https://www.linkedin.com/company/the-crystal-engage/" aria-label="Social link" className="cs_center cs_radius_50">
                   <i className="bi bi-linkedin"></i>
                 </a>
-                <a href="#" aria-label="Social link" className="cs_center cs_radius_50">
+                <a href="https://www.instagram.com/thecrystalengage_/#" aria-label="Social link" className="cs_center cs_radius_50">
                   <i className="bi bi-instagram"></i>
                 </a>
               </div>
@@ -55,14 +55,14 @@ const Footer1 = () => {
               </div>
               <div className="cs_footer_widget">
                 <h2 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_27 position-relative">Contact Us</h2>
-                <p className="cs_mb_24">4517 Washington. mg Manchester, Kentucky 39495</p>
+                <p className="cs_mb_24">212, Milestone Building, Drive In Rd, beside Drive-in-cinema, Nilmani Society, Thaltej, Ahmedabad, Gujarat 380059</p>
                 <h3 className="cs_fs_16 cs_white_color cs_mb_10">Phone Call:</h3>
                 <ul className="cs_footer_contact_list cs_mp_0">
                   <li>
-                    <a href="tel:20866660112" aria-label="Phone call link">208-6666-0112</a>
+                    <a href="tel:+919925843531" aria-label="Phone call link">+91 99258 43531</a>
                   </li>
                   <li>
-                    <a href="tel:30855550113" aria-label="Phone call link">308-5555-0113</a>
+                    <a href="tel:+919586107802" aria-label="Phone call link">+91 95861 07802</a>
                   </li>
                 </ul>
               </div>

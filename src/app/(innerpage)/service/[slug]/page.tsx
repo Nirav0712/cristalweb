@@ -5,6 +5,9 @@ import Link from 'next/link';
 import ServiceFaq from "./ServiceFaq";
 import ContactForm from "./ContactForm";
 import Card from "@/app/Components/Common/Card";
+import { Metadata } from 'next';
+import JsonLd from '@/app/Components/SEO/JsonLd';
+import { getBreadcrumbSchema, getServiceSchema, getFAQSchema } from '@/lib/seo/schemas';
 
 /* ---------------- TYPES ---------------- */
 
@@ -66,6 +69,29 @@ export async function generateStaticParams() {
   }));
 }
 
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const service: ServiceData | undefined = servicesData[resolvedParams.slug];
+
+  if (!service) {
+    return {
+      title: 'Service Not Found',
+      description: 'The requested service could not be found.'
+    };
+  }
+
+  return {
+    title: service.title,
+    description: service.description,
+    keywords: service.components,
+    openGraph: {
+      title: `${service.title} Services | The Crystal Engage`,
+      description: service.description,
+      url: `https://thecrystalengage.com/service/${resolvedParams.slug}`,
+    }
+  };
+}
+
 /* ---------------- PAGE ---------------- */
 
 const ServicePage = async ({ params }: PageProps) => {
@@ -89,6 +115,20 @@ const ServicePage = async ({ params }: PageProps) => {
         bgimg="/assets/img/page_header.jpg"
         Title={service.title}
       />
+
+      <JsonLd data={[
+        getBreadcrumbSchema([
+          { name: 'Home', url: '/' },
+          { name: 'Services', url: '/service' },
+          { name: service.title, url: `/service/${resolvedParams.slug}` }
+        ]),
+        getServiceSchema({
+          name: service.title,
+          description: service.description,
+          url: `/service/${resolvedParams.slug}`
+        }),
+        ...(service.faq ? [getFAQSchema(service.faq.map(f => ({ question: f.title, answer: f.content })))] : [])
+      ]} />
 
       <div className="cs_height_120 cs_height_lg_80"></div>
 

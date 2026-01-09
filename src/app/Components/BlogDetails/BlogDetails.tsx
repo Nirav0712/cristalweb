@@ -33,7 +33,7 @@ const BlogDetails = ({ post }: any) => {
                 <div className="cs_recent_post_wrapper">
                   <div className="cs_recent_post">
                     <a className="cs_recent_post_thumb cs_radius_10" href="#" aria-label="Click to read post">
-                      <Image src="/assets/img/latest_post_1.jpg" alt="img" width={80} height={80} />
+                      <Image src="/assets/img/blogs/784958_11485-NNKM54.jpg" alt="img" width={80} height={80} />
                     </a>
                     <div className="cs_recent_post_right">
                       <div className="cs_post_meta cs_fs_14 cs_blue_color cs_mb_9">
@@ -46,7 +46,7 @@ const BlogDetails = ({ post }: any) => {
                   </div>
                   <div className="cs_recent_post">
                     <a className="cs_recent_post_thumb cs_radius_10" href="#" aria-label="Click to read post">
-                      <Image src="/assets/img/latest_post_2.jpg" alt="img" width={80} height={80} />
+                      <Image src="/assets/img/blogs/25593148_hf50_99bu_211101.jpg" alt="img" width={80} height={80} />
                     </a>
                     <div className="cs_recent_post_right">
                       <div className="cs_post_meta cs_fs_14 cs_blue_color cs_mb_9">
@@ -59,7 +59,7 @@ const BlogDetails = ({ post }: any) => {
                   </div>
                   <div className="cs_recent_post">
                     <a className="cs_recent_post_thumb cs_radius_10" href="#" aria-label="Click to read post">
-                      <Image src="/assets/img/latest_post_3.jpg" alt="img" width={80} height={80} />
+                      <Image src="/assets/img/blogs/3886408_11400.jpg" alt="img" width={80} height={80} />
                     </a>
                     <div className="cs_recent_post_right">
                       <div className="cs_post_meta cs_fs_14 cs_blue_color cs_mb_9">
@@ -106,48 +106,48 @@ const BlogDetails = ({ post }: any) => {
             <div className="cs_height_80 cs_height_lg_60"></div>
             <div className="cs_author_card cs_radius_15 wow fadeInDown">
               <div className="cs_author_thumbnail cs_radius_15">
-                <Image src="/assets/img/post_author.jpg" alt="img" width={189} height={189} />
+                <Image src="/assets/img/teamimg/jensi.JPG" alt="img" width={189} height={189} />
               </div>
               <div className="cs_author_info">
-                <h3 className="cs_fs_24 cs_semibold cs_mb_2">William Benjamin</h3>
+                <h3 className="cs_fs_24 cs_semibold cs_mb_2">Jensi</h3>
                 <p className="cs_author_status cs_blue_color">Author</p>
-                <p className="cs_author_desc mb-0">Re-engineer multimedia based internal or organic sources for progressive vortals. Assertively leverage existing economically sound total linkage whereas global best practices.</p>
+                <p className="cs_author_desc mb-0">Jensi is a branding and visual identity specialist with a strong focus on creating meaningful brand experiences. With expertise in logo design, brand strategy, and digital branding, she helps startups and growing businesses build consistent, memorable, and scalable brand identities. Her insights combine creative design thinking with real-world marketing strategies to help brands stand out in competitive markets.</p>
               </div>
             </div>
             <div className="cs_height_70 cs_height_lg_60"></div>
             <div className="cs_comments_area">
-              <h2 className="cs_fs_30 cs_mb_25">03 Comments</h2>
+              <h2 className="cs_fs_30 cs_mb_25"> Comments</h2>
               <ul className="cs_comment_list cs_heading_font cs_mp_0">
                 <li className="cs_comment_body position-relative">
                   <div className="cs_comment_thumbnail cs_radius_15">
-                    <Image src="/assets/img/client_1.jpg" alt="img" width={110} height={110} />
+                    <Image src="/assets/img/blogs/testimonial_img1.png" alt="img" width={110} height={110} />
                   </div>
                   <div className="cs_comment_info">
-                    <p className="cs_fs_14 cs_medium mb-0">15 Jun, 2024</p>
-                    <h3 className="cs_fs_20 cs_semibold cs_mb_14">Daniel Adam</h3>
-                    <p className="mb-0">Empower multifunctional e-commerce for prospective applications. Seamlessly productivate plug-and-play markets whereas synergistic scenarios.</p>
+                    <p className="cs_fs_14 cs_medium mb-0">15 Jun, 2022</p>
+                    <h3 className="cs_fs_20 cs_semibold cs_mb_14">Rahul Mehta</h3>
+                    <p className="mb-0">Insightful article! The explanation of branding design and its impact on business identity is very clear. This post helped me understand how consistent visual branding builds long-term trust and recognition.</p>
                     <button aria-label="Reply button" className="cs_reply_btn cs_semibold cs_blue_color">Reply</button>
                   </div>
                 </li>
                 <li className="cs_comment_body position-relative">
                   <div className="cs_comment_thumbnail cs_radius_15">
-                    <Image src="/assets/img/client_2.jpg" alt="img" width={110} height={110} />
+                    <Image src="/assets/img/blogs/testimonial_img2.png" alt="img" width={110} height={110} />
                   </div>
                   <div className="cs_comment_info">
-                    <p className="cs_fs_14 cs_medium mb-0">15 Jun, 2024</p>
-                    <h3 className="cs_fs_20 cs_semibold cs_mb_14">Zenelia Lozhe</h3>
-                    <p className="mb-0">Empower multifunctional e-commerce for prospective pplications. Seamlessly productivate plug-and-play markets.</p>
+                    <p className="cs_fs_14 cs_medium mb-0">19 Mar, 2023</p>
+                    <h3 className="cs_fs_20 cs_semibold cs_mb_14">Priya Sharma</h3>
+                    <p className="mb-0">Great read! I especially liked the focus on brand strategy and emotional connection. The practical examples make it easy for startups and small businesses to apply these branding concepts.</p>
                     <button aria-label="Reply button" className="cs_reply_btn cs_semibold cs_blue_color">Reply</button>
                   </div>
                 </li>
                 <li className="cs_comment_body position-relative">
                   <div className="cs_comment_thumbnail cs_radius_15">
-                    <Image src="/assets/img/client_3.jpg" alt="img" width={110} height={110} />
+                    <Image src="/assets/img/blogs/testimonial_img3.png" alt="img" width={110} height={110} />
                   </div>
                   <div className="cs_comment_info">
-                    <p className="cs_fs_14 cs_medium mb-0">15 Jun, 2024</p>
-                    <h3 className="cs_fs_20 cs_semibold cs_mb_14">Jhon Smith</h3>
-                    <p className="mb-0">Empower multifunctional e-commerce for prospective applications. Seamlessly productivate plug-and-play markets whereas synergistic scenarios.</p>
+                    <p className="cs_fs_14 cs_medium mb-0">15 May, 2024</p>
+                    <h3 className="cs_fs_20 cs_semibold cs_mb_14">Amit Patel</h3>
+                    <p className="mb-0">Well-written and informative content. Branding is often misunderstood, but this article breaks it down in a simple and effective way. Looking forward to more branding and design insights.</p>
                     <button aria-label="Reply button" className="cs_reply_btn cs_semibold cs_blue_color">Reply</button>
                   </div>
                 </li>

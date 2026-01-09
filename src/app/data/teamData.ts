@@ -18,7 +18,7 @@ export const teamContent: TeamMember[] = [
     },
     {
         slug: 'jainil',
-        img: '/assets/img/teamimg/jenil.png',
+        img: '/assets/img/teamimg/jainil.JPG',
         name: 'Jainil',
         content: 'Branding Manager',
         linkedin: 'https://www.linkedin.com/in/jainil-shiyal-54ba4a284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
@@ -34,7 +34,7 @@ export const teamContent: TeamMember[] = [
     },
     {
         slug: 'jensi',
-        img: '/assets/img/teamimg/jensi.png',
+        img: '/assets/img/teamimg/jensi.JPG',
         name: 'Jensi',
         content: 'Digital Marketing Manager',
         linkedin: 'https://www.linkedin.com/in/jensi-jyani-013a3a376?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
@@ -88,14 +88,14 @@ export const teamContent: TeamMember[] = [
         linkedin: 'https://www.linkedin.com/in/nikhil-prajapati-349152137/',
         description: 'Nikhil is a Frontend Developer passionate about creating stunning, responsive user interfaces with clean code and modern web technologies.'
     },
-    {
-        slug: 'khushboo',
-        img: '/assets/img/teamimg/khooshbu.jpg',
-        name: 'Khushboo',
-        content: 'Jr. Frontend Developer',
-        linkedin: 'https://www.linkedin.com/in/khushboo-sadhu-a7a680393/',
-        description: 'Khushboo is an experienced WordPress Developer who builds custom themes and plugins, delivering tailored content management solutions for clients.'
-    },
+    // {
+    //     slug: 'khushboo',
+    //     img: '/assets/img/teamimg/khooshbu.jpg',
+    //     name: 'Khushboo',
+    //     content: 'Jr. Frontend Developer',
+    //     linkedin: 'https://www.linkedin.com/in/khushboo-sadhu-a7a680393/',
+    //     description: 'Khushboo is an experienced WordPress Developer who builds custom themes and plugins, delivering tailored content management solutions for clients.'
+    // },
     {
         slug: 'jinal',
         img: '/assets/img/teamimg/jinal.png',

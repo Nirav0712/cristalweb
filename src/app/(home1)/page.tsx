@@ -14,10 +14,23 @@ import Team1 from '../Components/Team/Team1';
 import Contact1 from '../Components/Contact/Contact1';
 import Blog1 from '../Components/Blog/Blog4';
 import Teamhead from '../Components/Team/Teamhead';
+import { Metadata } from 'next';
+import JsonLd from '../Components/SEO/JsonLd';
+import { getBreadcrumbSchema } from '@/lib/seo/schemas';
+
+export const metadata: Metadata = {
+    title: 'Home',
+    description: 'The Crystal Engage - Premier digital marketing and branding agency in Ahmedabad. We deliver results-driven SEO, content marketing, UI/UX design, app development, and comprehensive digital strategies.',
+};
 
 const page = () => {
+    const breadcrumbSchema = getBreadcrumbSchema([
+        { name: 'Home', url: '/' }
+    ]);
+
     return (
         <div>
+            <JsonLd data={breadcrumbSchema} />
             <HeroBanner1></HeroBanner1>
             <About1></About1>
             <Counter1></Counter1>

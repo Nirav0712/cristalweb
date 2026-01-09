@@ -6,14 +6,14 @@ import React from 'react';
 const Services4 = () => {
 
   const chooseContent = [
-    { img: '/assets/img/icons/bulb.svg', title: 'Branding design', slug: 'branding-design', content: 'Building a memorable identity that connects emotionally with your audience and sets the foundation for success.' },
-    { img: '/assets/img/icons/email.svg', title: 'Email Marketing', slug: 'email-marketing', content: 'One of the most effective strategies to boost sales and build strong customer relationships through direct communication.' },
-    { img: '/assets/img/icons/seo.svg', title: 'SEO & Analytics', slug: 'seo-analytics', content: 'Improving your website rank on Google and collecting data to measure performance and smarter marketing decisions.' },
-    { img: '/assets/img/icons/watch.svg', title: 'Content Marketing', slug: 'content-marketing', content: 'Creating and sharing valuable and relevant content to attract and engage your target audience and grow your business.' },
-    { img: '/assets/img/icons/ux-ui.svg', title: 'UI/UX Design', slug: 'ui-ux-design', content: 'Focusing on visual design and user journey to drive business growth and provide an intuitive user experience.' },
-    { img: '/assets/img/icons/app.svg', title: 'App development', slug: 'app-development', content: 'Designing, building, and deploying mobile applications for Android and iOS to provide personalized digital experiences.' },
-    { img: '/assets/img/icons/business.svg', title: 'Business Analysis', slug: 'business-analysis', content: 'Identifying business needs, solving problems, and recommending improvements through data-backed decisions.' },
-    { img: '/assets/img/icons/digital.svg', title: 'Digital Strategy', slug: 'digital-strategy', content: 'A long-term plan that uses digital technologies and data to help a business achieve its goals and stay relevant.' },
+    { img: '/assets/img/icons/bulb.svg', title: 'Brand Identity Design Services', slug: 'branding-design', content: 'Professional brand identity design services to build trust, recognition, and emotional connection with your audience.' },
+    { img: '/assets/img/icons/email.svg', title: 'Email Marketing Services for Businesses', slug: 'email-marketing', content: 'High-converting email marketing services that increase sales, engagement, and customer loyalty through targeted campaigns..' },
+    { img: '/assets/img/icons/seo.svg', title: 'SEO Services for Website Ranking', slug: 'seo-analytics', content: 'Rank higher on Google with our professional SEO and analytics services. Improve traffic, visibility, and conversions.' },
+    { img: '/assets/img/icons/watch.svg', title: 'Content Marketing Services for SEO', slug: 'content-marketing', content: 'We are a professional UI/UX design company creating intuitive, user-friendly, and conversion-focused digital experiences.' },
+    { img: '/assets/img/icons/ux-ui.svg', title: 'UI UX Design Company', slug: 'ui-ux-design', content: 'Focusing on visual design and user journey to drive business growth and provide an intuitive user experience.' },
+    { img: '/assets/img/icons/app.svg', title: 'Mobile App Development Company', slug: 'app-development', content: 'Top mobile app development company building secure, scalable Android and iOS applications for businesses.' },
+    { img: '/assets/img/icons/business.svg', title: 'Business Analysis Consulting Services', slug: 'business-analysis', content: 'Expert business analysis consulting services to identify gaps, optimize processes, and drive smarter decisions.' },
+    { img: '/assets/img/icons/digital.svg', title: 'Digital Strategy Consulting Services', slug: 'digital-strategy', content: 'Strategic digital consulting services to help businesses grow, scale, and stay competitive in the digital world.' },
   ];
 
   return (

@@ -17,10 +17,10 @@ const Cta = () => {
           <div className="cs_project_content position-relative">
             <div className="cs_project_thumbnail_wrapper cs_center">
               <div className="cs_project_thumbnail cs_radius_20">
-                <Image src="/assets/img/project_1.jpg" alt="img" width={242} height={261}   />
+                <Image src="/assets/img/blogs/10705460_44523.jpg" alt="img" width={242} height={261}   />
               </div>
               <div className="cs_project_thumbnail cs_radius_20">
-                <Image src="/assets/img/project_2.jpg" alt="img" width={242} height={261}   />
+                <Image src="/assets/img/blogs/13641500_5301618.jpg" alt="img" width={242} height={261}   />
               </div>
             </div>
             <div className="cs_project_heading text-center">
@@ -28,6 +28,7 @@ const Cta = () => {
               <Link href="/contact" aria-label="Click to contact us" className="cs_btn cs_style_1 cs_fs_14 cs_bold text-uppercase wow fadeInUp"><span>CONTACT US</span></Link>
             </div>
           </div>
+
           <div className="cs_height_120 cs_height_lg_80"></div>
           <div className="cs_counter_grid_1">
             <div className="cs_counter_wrapper cs_type_1">

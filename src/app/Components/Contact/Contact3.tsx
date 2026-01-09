@@ -23,7 +23,9 @@ const Contact3 = () => {
                     </span>
                     <div className="cs_iconbox_info">
                       <p className="cs_mb_1">Call Us For Query</p>
-                      <a href="tel:+58125253158" aria-label="Phone call button">(+58-125) 25-3158</a>
+                      <a href="tel:+919925843531" aria-label="Phone call button">+91 99258 43531</a>
+                      <br></br>
+                      <a href="tel:+919586107802" aria-label="Phone call button">+91 95861 07802</a>
                     </div>
                   </div>
                 </li>
@@ -34,7 +36,7 @@ const Contact3 = () => {
                     </span>
                     <div className="cs_iconbox_info">
                       <p className="cs_mb_1">Email Anytime</p>
-                      <a href="mailTo:info@webteck.chat.com" aria-label="Click to send email">info@webteck.chat.com</a>
+                      <a href="mailTo:thecrystalengage@gmail.com" aria-label="Click to send email">thecrystalengage@gmail.com</a>
                     </div>
                   </div>
                 </li>
@@ -45,7 +47,7 @@ const Contact3 = () => {
                     </span>
                     <div className="cs_iconbox_info">
                       <p className="cs_mb_1">Visit Our Office</p>
-                      <p className="cs_fs_18 cs_semibold cs_heading_color mb-0">15 Maniel Lane, Front Line Berlin</p>
+                      <p className="cs_fs_18 cs_semibold cs_heading_color mb-0">212, Milestone Building, Drive In Rd, Beside Drive-in-cinema, Nilmani Society, Thaltej, Ahmedabad, Gujarat 380059</p>
                     </div>
                   </div>
                 </li>
@@ -79,7 +81,7 @@ const Contact3 = () => {
         </div>
         <div className="cs_height_100 cs_height_lg_80"></div>
         <div className="cs_location_map cs_radius_30 wow fadeInDown">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193596.26002815957!2d-74.14431223360049!3d40.69728463486588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1738564592874!5m2!1sen!2sbd"  loading="lazy"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14685.350065747529!2d72.50829041004181!3d23.048084491786067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8558ac678c75%3A0xc1356782426c46d2!2sThe%20Crystal%20Engage!5e0!3m2!1sen!2sin!4v1766832015501!5m2!1sen!2sin"  loading="lazy"></iframe>
           {/* <iframe src=""  loading="lazy"></iframe> */}
         </div>
       </div>

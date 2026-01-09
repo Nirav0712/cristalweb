@@ -23,8 +23,8 @@ const Services3 = () => {
                 <p className="cs_section_subtitle cs_fs-18 cs_medium cs_accent_color wow fadeInDown">
                   Our featured services <span className="cs_shape_right"></span>
                 </p>
-                <h2 className="cs_fs_48 cs_mb_21 wow fadeInUp">We Provide Exclusive Service For You</h2>
-                <p className="cs_mb_41 wow fadeInUp" data-wow-delay="200ms">There are many variations of passages of  available, but the majority have suffered alteration in some form,</p>
+                <h2 className="cs_fs_48 cs_mb_21 wow fadeInUp">Digital Marketing Services in Ahmedabad(2026)</h2>
+                <p className="cs_mb_41 wow fadeInUp" data-wow-delay="200ms">&ldquo; The Crystal Engage is a full-service digital marketing agency in Ahmedabad offering branding design, SEO & analytics, content marketing, UI/UX design, app development, business analysis, and digital strategy services. We help startups, SMEs, and enterprises achieve measurable growth with result-driven digital solutions.&ldquo;</p>
                 <Link href="/service" aria-label="Click to view all services" className="cs_view_service_btn cs_fs_14 cs_bold cs_accent_color position-relative">
                 <span className="cs_btn_shape position-absolute">
                   <Image src="/assets/img/btn_shape.svg" alt="img" width={140} height={76}   />
